@@ -1,6 +1,6 @@
-# Copyright 1999-2007 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 inherit java-pkg-2 java-ant-2
 
@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="~x86 "
 IUSE="doc source"
 
-DEPEND="|| ( =virtual/jdk-1.6*  =virtual/jdk-1.5* =virtual/jdk-1.4* )
+DEPEND="=virtual/jdk-1.6*
 		source? ( app-arch/zip )
 		dev-java/commons-logging
 		dev-java/stax
